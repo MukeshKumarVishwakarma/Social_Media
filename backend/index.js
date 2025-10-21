@@ -17,7 +17,7 @@ dotenv.config()
 const PORT = process.env.PORT || 2025
 
 app.use(cors({
-    origin: "http://localhost:5173",
+    origin: "https://social-media-insta-frontend.onrender.com",
     credentials: true,
 }))
 app.use(express.json())
