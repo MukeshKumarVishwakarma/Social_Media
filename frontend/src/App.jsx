@@ -28,7 +28,7 @@ import Notifications from './pages/Notifications';
 import { setNotificationData } from './redux/userSlice';
 
 
-export const serverUrl = "http://localhost:2025";
+export const serverUrl = "https://social-media-insta-backend.onrender.com";
 function App() {
   getCurrentUser()
   getSuggestedUsers()
