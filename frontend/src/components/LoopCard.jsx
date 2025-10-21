@@ -169,7 +169,7 @@ function LoopCard({ loop }) {
                 </div>
             </div>
 
-            <video ref={videoRef} autoPlay muted loop src={loop?.media}
+            <video ref={videoRef} autoPlay muted={isMute} loop  playsInline src={loop?.media}
                 className='w-full max-h-[100vh]'
                 onClick={handleClick}
                 onTimeUpdate={handleTimeUpdate}
